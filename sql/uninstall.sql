@@ -1,0 +1,1 @@
+DROP TABLE `[table_prefix]smsender_groups`,`[table_prefix]smsender_history_detailed_records`,`[table_prefix]smsender_history_groups`,`[table_prefix]smsender_history_records`,`[table_prefix]smsender_persons`,`[table_prefix]smsender_persons2groups`;

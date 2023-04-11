@@ -1,0 +1,44 @@
+.smsender-define-column-cell{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	padding-left:5px;
+	padding-right:5px;
+}
+.smsender-column-extra-option{
+	display:none;
+}
+.smsender-horizontal-spacer{
+	margin:10px 0px;
+	border-top:#eee 1px solid;
+}
+.smsender-send-to-related{
+	display:none;
+}
+.smsender-recipients-list{
+	max-height:180px;
+	overflow:auto;
+	margin-bottom:10px;
+}
+.smsedner-shortcodes-info{
+	color:#555;
+}
+#smsender-send-result{
+	display:none;
+}
+.smsender-sending-info-box{
+	color:#555;
+}
+.smsender-stopped-row{
+	color:#e24d4d;
+}
+.smsender-message-characters-counter{
+	float:right;
+}
+@media only screen and (max-width: 479px)  {
+	.smsender-message-characters-counter{
+		float:none;
+		padding-bottom:10px;
+		padding-top:5px;
+	}
+}

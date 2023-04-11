@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<title>SMSender</title>
+	<name>smsender</name>
+	<description>SMSender app provides you the functionalities to send SMS to persons in batch mode, manage the recipients and their groups</description>
+	<version>1.0.6</version>
+	<author>iQDesk</author>	
+	<dependencies>
+		<dependedOnModule>log</dependedOnModule>
+		<dependedOnModule>settings</dependedOnModule>
+	</dependencies>		
+	<primaryNavigationItem>
+		<section>persons</section>
+		<action>index</action>
+	</primaryNavigationItem>
+	<sections>
+		<section>
+			<title>Persons section</title>
+			<name>persons</name>
+			<description>Persons section provides you the access to the list of your recipients and perform mass sending</description>
+			<actions>
+				<action>
+					<title>Listing of persons</title>
+					<name>index</name>
+				</action>
+				<action>
+					<title>Create person</title>
+					<name>create</name>
+				</action>
+				<action>
+					<title>Update person</title>
+					<name>update</name>
+				</action>
+				<action>
+					<title>Delete person</title>
+					<name>delete</name>
+				</action>
+				<action>
+					<title>Import persons from Excel</title>
+					<name>import</name>
+				</action>
+				<action>
+					<title>Export persons to Excel</title>
+					<name>export</name>
+				</action>
+				<action>
+					<title>Mass sending</title>
+					<name>send</name>
+				</action>
+			</actions>
+		</section>	
+		<section>
+			<title>Groups section</title>
+			<name>groups</name>
+			<description>Groups section provides you the access to managing persons' groups</description>
+			<actions>
+				<action>
+					<title>Listing of groups</title>
+					<name>index</name>
+				</action>					
+				<action>
+					<title>Create group</title>
+					<name>create</name>
+				</action>
+				<action>
+					<title>Update group</title>
+					<name>update</name>
+				</action>
+				<action>
+					<title>Delete group</title>
+					<name>delete</name>
+				</action>								
+			</actions>
+		</section>
+		<section>
+			<title>History section</title>
+			<name>history</name>
+			<description>History section provides you the functionality to review log of sendings</description>
+			<actions>
+				<action>
+					<title>Listing of sendings</title>
+					<name>index</name>
+				</action>					
+				<action>
+					<title>Detailed record view</title>
+					<name>view</name>
+				</action>
+				<action>
+					<title>Delete record</title>
+					<name>delete</name>
+				</action>
+				<action>
+					<title>Clear history</title>
+					<name>clear</name>
+				</action>
+				<action>
+					<title>Batch delete records</title>
+					<name>batchdelete</name>
+				</action>
+			</actions>
+		</section>
+	</sections>
+</module>
